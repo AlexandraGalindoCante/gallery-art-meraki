@@ -373,5 +373,15 @@
     "anio": "2025",
     "expuesta": true,
     "publicada": true
+  },
+  {
+    "slug": "corazon-y-serpientes",
+    "artista": "mariana-monroy",
+    "titulo": "Corazón y serpientes",
+    "imagen": "corazon-y-serpientes",
+    "alt": "Ilustración de una mujer de cabello cobrizo y ojos blancos que sostiene un corazón, rodeada por dos serpientes azules y peonías rosadas, sobre un fondo de nubes grises.",
+    "anio": "2026",
+    "expuesta": true,
+    "publicada": true
   }
 ]
