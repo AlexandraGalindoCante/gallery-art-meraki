@@ -83,10 +83,9 @@
     "artista": "juana-camila",
     "titulo": "Aguacate",
     "imagen": "aguacate",
-    "tecnica": "Óleo sobre lienzo",
     "expuesta": true,
-    "publicada": false,
-    "pendiente": "Falta la foto: guárdala con tools/optimizar-imagen.ps1 -Nombre aguacate. El título es provisional."
+    "publicada": true,
+    "alt": "Pintura de un aguacate partido a la mitad, con su semilla marrón, junto a otro aguacate entero sobre una mesa, con luz suave al fondo."
   },
   {
     "slug": "pulpitos-de-peluche",
@@ -381,6 +380,159 @@
     "imagen": "corazon-y-serpientes",
     "alt": "Ilustración de una mujer de cabello cobrizo y ojos blancos que sostiene un corazón, rodeada por dos serpientes azules y peonías rosadas, sobre un fondo de nubes grises.",
     "anio": "2026",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "corse",
+    "artista": "tawan-molano",
+    "titulo": "Corsé",
+    "imagen": "corse",
+    "alt": "Dibujo en grises de un corsé con cordones al frente y volantes en la cintura.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "mujer-en-el-campo",
+    "artista": "tawan-molano",
+    "titulo": "Mujer en el campo",
+    "imagen": "mujer-en-el-campo",
+    "alt": "Dibujo en grises de una mujer con sombrero y falda larga de pie en un campo con rocas.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "vela",
+    "artista": "tawan-molano",
+    "titulo": "Vela",
+    "imagen": "vela",
+    "alt": "Dibujo de una vela encendida cuya luz brilla sobre un fondo oscuro de trazos negros.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "loro",
+    "artista": "nicolas-malaver",
+    "titulo": "Loro",
+    "imagen": "loro",
+    "alt": "Dibujo a color de un loro verde con azul y amarillo en la cabeza y el pico.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "lirio-rosado",
+    "artista": "nicolas-malaver",
+    "titulo": "Lirio rosado",
+    "imagen": "lirio-rosado",
+    "alt": "Dibujo a color de una flor de lirio rosada con estambres, tallo y hojas verdes.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "figura-pensativa",
+    "artista": "valerie-becerra",
+    "titulo": "Figura pensativa",
+    "imagen": "figura-pensativa",
+    "alt": "Dibujo a tinta de una escultura de rostro con rizos que reposa la cabeza sobre la mano, con los ojos cerrados.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "girasoles-en-un-florero",
+    "artista": "valerie-becerra",
+    "titulo": "Girasoles en un florero",
+    "imagen": "girasoles-en-un-florero",
+    "alt": "Dibujo en negro y tonos rojizos de girasoles en un florero sobre una mesa.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "barcas-de-pesca",
+    "artista": "ivan-rojas",
+    "titulo": "Barcas de pesca",
+    "imagen": "barcas-de-pesca",
+    "alt": "Fotografía de barcas de pesca varadas en la arena, con una parte dibujada a lápiz de color sobre la barca de la izquierda.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "ojo",
+    "artista": "ivan-rojas",
+    "titulo": "Ojo",
+    "imagen": "ojo",
+    "alt": "Dibujo realista de un ojo azul con vasos sanguíneos rojos que se extienden como hilos, sobre un fondo claro.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "bicicleta",
+    "artista": "ivan-rojas",
+    "titulo": "Bicicleta",
+    "imagen": "bicicleta",
+    "alt": "Dibujo en grises de una bicicleta de montaña apoyada junto a una pared, con un casco colgando del manubrio.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "retrato-de-un-hombre",
+    "artista": "ivan-rojas",
+    "titulo": "Retrato de un hombre",
+    "imagen": "retrato-de-un-hombre",
+    "alt": "Retrato a lápiz de color de un hombre calvo con chaqueta verde que mira hacia un lado.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "corazon",
+    "artista": "andea-polo",
+    "titulo": "Corazón",
+    "imagen": "corazon",
+    "alt": "Dibujo a lápiz de un corazón humano con sus arterias y venas.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "estudio-de-sombras",
+    "artista": "andea-polo",
+    "titulo": "Estudio de sombras",
+    "imagen": "estudio-de-sombras",
+    "alt": "Dibujo a lápiz con sombras suaves de una forma curva que rodea un cilindro.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "elefante",
+    "artista": "andea-polo",
+    "titulo": "Elefante",
+    "imagen": "elefante",
+    "alt": "Dibujo a lápiz de la cabeza de un elefante de perfil, con sus colmillos y la trompa enrollada.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "retrato-de-una-mujer-mayor",
+    "artista": "jorge-reyes",
+    "titulo": "Retrato de una mujer mayor",
+    "imagen": "retrato-de-una-mujer-mayor",
+    "alt": "Retrato pintado de una mujer mayor de cabello gris y sonrisa suave, con una chaqueta verde sobre un fondo violeta.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "entre-verdes",
+    "artista": "gabriela-granados",
+    "titulo": "Entre verdes",
+    "imagen": "entre-verdes",
+    "alt": "Pintura de pinceladas verdes en remolino, con una figura clara que parece flotar entre ellas.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "colibri-y-flores",
+    "artista": "salome-cifuentes",
+    "titulo": "Colibrí y flores",
+    "imagen": "colibri-y-flores",
+    "alt": "Pintura de un colibrí de pecho multicolor que se acerca a grandes flores lilas y azules, sobre un fondo azul turquesa.",
     "expuesta": true,
     "publicada": true
   }

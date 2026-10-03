@@ -19,26 +19,29 @@
     "slug": "tawan-molano",
     "nombre": "Tawan Molano",
     "color": "#e8782b",
-    "publicado": true
+    "publicado": true,
+    "bio": "Dibuja en grises y juega con la luz y las sombras."
   },
   {
     "slug": "ivan-rojas",
     "nombre": "Ivan Rojas",
     "color": "#6b1f3a",
-    "publicado": true
+    "publicado": true,
+    "bio": "Sus dibujos cuidan el detalle, desde un ojo y una bicicleta hasta un retrato."
   },
   {
     "slug": "andea-polo",
-    "nombre": "Andea Polo",
+    "nombre": "Andrea Polo",
     "color": "#3f7d3a",
-    "publicado": true
+    "publicado": true,
+    "bio": "Dibuja a lápiz con sombras suaves: un corazón, un elefante y estudios de forma."
   },
   {
     "slug": "gabriela-granados",
     "nombre": "Gabriela Granados",
     "color": "#b3263a",
     "publicado": true,
-    "bio": "Su pintura en tonos grises captura la luz y la transparencia del cristal."
+    "bio": "Explora la luz y el color: del cristal en tonos grises a remolinos verdes."
   },
   {
     "slug": "sara-nieto",
@@ -58,7 +61,7 @@
     "nombre": "Nicolas Malaver",
     "color": "#6b1f3a",
     "publicado": true,
-    "bio": "Pinta personajes y retratos con color y carácter."
+    "bio": "Entre personajes, retratos, aves y flores, su obra mezcla color y detalle."
   },
   {
     "slug": "laura-martinez",
@@ -79,7 +82,7 @@
     "nombre": "Valerie Becerra",
     "color": "#1f8a93",
     "publicado": true,
-    "bio": "Pinta con colores intensos: ciruelas moradas, una bolsa amarilla y sombras azules."
+    "bio": "Su obra va de colores intensos, como unas ciruelas moradas, a dibujos de trazo fino."
   },
   {
     "slug": "jorge-reyes",
@@ -114,7 +117,7 @@
     "nombre": "Salome Cifuentes",
     "color": "#1f8a93",
     "publicado": true,
-    "bio": "Su pintura revisita a Vincent Van Gogh con colores intensos y trazos marcados."
+    "bio": "Su obra va de Van Gogh a un colibrí entre flores, con colores intensos."
   },
   {
     "slug": "mariana-monroy",
