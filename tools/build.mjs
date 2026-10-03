@@ -225,6 +225,7 @@ ${cuerpo}
     <footer class="foot">
       <p><strong>${esc(site.nombre)}</strong> · ${esc(site.subtitulo)}</p>
       <nav aria-label="Secciones"><a href="${ruta.artistas(r)}">Artistas</a><a href="${ruta.obras(r)}">Obras</a></nav>
+      ${site.creditos ? `<p class="foot-credit">${esc(site.creditos.texto)} <a href="${esc(urlSegura(site.creditos.url, "creditos"))}" target="_blank" rel="noopener noreferrer">${esc(site.creditos.nombre)}<span class="sr"> (se abre en otra pestaña)</span></a></p>` : ""}
     </footer>
   </div>
   <script src="${r}assets/js/site.js" defer></script>

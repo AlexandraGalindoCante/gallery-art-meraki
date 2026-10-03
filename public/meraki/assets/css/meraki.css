@@ -142,6 +142,8 @@ h1, h2, h3 { margin: 0; }
 }
 .foot strong { color: var(--ink); }
 .foot nav { display: flex; gap: 22px; }
+.foot-credit { flex-basis: 100%; margin-top: 4px; font-size: .85rem; color: var(--muted); }
+.foot-credit a { font-weight: 700; text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1.5px; }
 .foot a { text-decoration: none; font-weight: 700; color: var(--ink); }
 .foot a:hover { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 2px; text-decoration-color: var(--accent); }
 
