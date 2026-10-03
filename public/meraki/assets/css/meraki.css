@@ -507,7 +507,6 @@ h1, h2, h3 { margin: 0; }
     gap: 0 64px;
     align-items: start;
   }
-  .obra-media { position: sticky; top: 24px; }
   .obra-info { margin-top: 0; }
   .pager { grid-column: 1 / -1; }
 }

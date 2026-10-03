@@ -37,13 +37,15 @@
     "slug": "gabriela-granados",
     "nombre": "Gabriela Granados",
     "color": "#b3263a",
-    "publicado": true
+    "publicado": true,
+    "bio": "Su pintura en tonos grises captura la luz y la transparencia del cristal."
   },
   {
     "slug": "sara-nieto",
     "nombre": "Sara Nieto",
     "color": "#1f8a93",
-    "publicado": true
+    "publicado": true,
+    "bio": "Su obra juega con la luz y el movimiento: del brillo del cristal a un caballo blanco entre olas azules."
   },
   {
     "slug": "valentina-novoa",
@@ -55,55 +57,64 @@
     "slug": "nicolas-malaver",
     "nombre": "Nicolas Malaver",
     "color": "#6b1f3a",
-    "publicado": true
+    "publicado": true,
+    "bio": "Pinta personajes y retratos con color y carácter."
   },
   {
     "slug": "laura-martinez",
     "nombre": "Laura Martinez",
     "color": "#3f7d3a",
-    "publicado": true
+    "publicado": true,
+    "bio": "Entre animales y paisajes, su obra retrata la naturaleza con calma y detalle."
   },
   {
     "slug": "katherin-rodriguez",
     "nombre": "Katherin Rodriguez",
     "color": "#b3263a",
-    "publicado": true
+    "publicado": true,
+    "bio": "Sus pinturas celebran la naturaleza: flores llenas de color, un diente de león en blanco y negro y un velero al atardecer."
   },
   {
     "slug": "valerie-becerra",
     "nombre": "Valerie Becerra",
     "color": "#1f8a93",
-    "publicado": true
+    "publicado": true,
+    "bio": "Pinta con colores intensos: ciruelas moradas, una bolsa amarilla y sombras azules."
   },
   {
     "slug": "jorge-reyes",
     "nombre": "Jorge Reyes",
     "color": "#e8782b",
-    "publicado": true
+    "publicado": true,
+    "bio": "Su obra recorre retratos, escenas y paisajes con una mirada detallada."
   },
   {
     "slug": "erika-polo",
     "nombre": "Erika Polo",
     "color": "#6b1f3a",
-    "publicado": true
+    "publicado": true,
+    "bio": "Pinta escenas llenas de atmósfera, desde dos cisnes en el agua hasta un puente al atardecer."
   },
   {
     "slug": "emma-castellon",
     "nombre": "Emma Castellon",
     "color": "#3f7d3a",
-    "publicado": true
+    "publicado": true,
+    "bio": "Su mundo está lleno de animales y paisajes: una tortuga, un capibara, un pulpo y una noche estrellada."
   },
   {
     "slug": "mariana-reyes",
     "nombre": "Mariana Reyes",
     "color": "#b3263a",
-    "publicado": true
+    "publicado": true,
+    "bio": "Pinta personajes con colores vivos y mucha alegría."
   },
   {
     "slug": "salome-cifuentes",
     "nombre": "Salome Cifuentes",
     "color": "#1f8a93",
-    "publicado": true
+    "publicado": true,
+    "bio": "Su pintura revisita a Vincent Van Gogh con colores intensos y trazos marcados."
   },
   {
     "slug": "mariana-monroy",

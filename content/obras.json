@@ -89,13 +89,289 @@
     "pendiente": "Falta la foto: guárdala con tools/optimizar-imagen.ps1 -Nombre aguacate. El título es provisional."
   },
   {
+    "slug": "pulpitos-de-peluche",
+    "artista": "alana-cortes",
+    "titulo": "Pulpitos de peluche",
+    "imagen": "pulpitos-de-peluche",
+    "alt": "Pintura de dos pulpos de peluche, uno rosado sobre uno azul, sobre un fondo de franjas violeta, rosa y verde.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
     "slug": "gato-noche-estrellada",
-    "artista": "",
+    "artista": "alana-cortes",
     "titulo": "Gato de noche estrellada",
     "imagen": "gato-noche-estrellada",
-    "tecnica": "Acrílico sobre lienzo",
+    "alt": "Pintura de un gato negro de ojos amarillos sentado en un campo de flores naranjas, bajo un cielo azul con remolinos, una luna amarilla y estrellas.",
     "expuesta": true,
-    "publicada": false,
-    "pendiente": "Falta confirmar quién la pintó (campo artista) y conseguir una foto de frente del lienzo. Hay un recorte provisional en content/pendientes/ (no se publica). El título es provisional."
+    "publicada": true
+  },
+  {
+    "slug": "conejo-y-copa",
+    "artista": "alana-cortes",
+    "titulo": "Conejo y copa de vino",
+    "imagen": "conejo-y-copa",
+    "alt": "Pintura de un conejo beige que apoya el hocico en una copa de vino tinto.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "copa-de-vino",
+    "artista": "gabriela-granados",
+    "titulo": "Copa de vino",
+    "imagen": "copa-de-vino",
+    "alt": "Pintura en tonos grises de una mano con las uñas oscuras que sostiene una copa de vino tinto.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "ciruelas",
+    "artista": "valerie-becerra",
+    "titulo": "Ciruelas",
+    "imagen": "ciruelas",
+    "alt": "Pintura de ciruelas moradas dentro de una bolsa amarilla, con ramas y hojas verdes sobre un fondo azul con sombras.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "baile-de-vestido-azul",
+    "artista": "jorge-reyes",
+    "titulo": "Baile de vestido azul",
+    "imagen": "baile-de-vestido-azul",
+    "alt": "Pintura de una mujer con vestido azul que baila en una habitación oscura, mientras otra figura la mira sentada a un lado.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "retrato-con-copa-de-vino",
+    "artista": "jorge-reyes",
+    "titulo": "Retrato con copa de vino",
+    "imagen": "retrato-con-copa-de-vino",
+    "alt": "Retrato de un hombre de traje gris y corbata estampada que observa una copa de vino tinto, sobre un fondo rojo.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "manos-dibujando",
+    "artista": "jorge-reyes",
+    "titulo": "Manos dibujando",
+    "imagen": "manos-dibujando",
+    "alt": "Pintura de las manos de una persona que dibuja sobre una hoja, con un frasco de tinta y pinceles sobre la mesa.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "paisaje-con-carreta",
+    "artista": "jorge-reyes",
+    "titulo": "Paisaje con carreta",
+    "imagen": "paisaje-con-carreta",
+    "alt": "Paisaje de campo con una casa de tejado rojo, grandes árboles y una carreta con caballos que cruza un río.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "vincent-van-gogh",
+    "artista": "salome-cifuentes",
+    "titulo": "Vincent Van Gogh",
+    "imagen": "vincent-van-gogh",
+    "alt": "Pintura de un hombre de barba y cabello naranja con chaqueta verde, sobre un fondo rojo con espirales negras.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "pajaro-de-colores",
+    "artista": "juana-camila",
+    "titulo": "Pájaro de colores",
+    "imagen": "pajaro-de-colores",
+    "alt": "Pintura de un pájaro visto de perfil, de pinceladas gruesas en rojo, amarillo, azul y verde, sobre un fondo gris.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "zorro",
+    "artista": "laura-martinez",
+    "titulo": "Zorro",
+    "imagen": "zorro",
+    "alt": "Pintura de un zorro naranja y blanco visto de perfil, sobre un fondo negro.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "paisaje-con-bote",
+    "artista": "laura-martinez",
+    "titulo": "Paisaje con bote",
+    "imagen": "paisaje-con-bote",
+    "alt": "Paisaje de un lago con árboles, nubes grandes y dos personas en un bote.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "kirby",
+    "artista": "mariana-reyes",
+    "titulo": "Kirby",
+    "imagen": "kirby",
+    "alt": "Pintura de Kirby, un personaje rosado y redondo, sobre pasto verde con hojas oscuras de fondo.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "hello-kitty-entre-tulipanes",
+    "artista": "mariana-reyes",
+    "titulo": "Hello Kitty entre tulipanes",
+    "imagen": "hello-kitty-entre-tulipanes",
+    "alt": "Pintura de Hello Kitty sentada en una caja entre tulipanes rosados, con estrellas amarillas en el cielo.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "nino-con-balon",
+    "artista": "mariana-reyes",
+    "titulo": "Niño con balón",
+    "imagen": "nino-con-balon",
+    "alt": "Pintura estilo animé de un niño sonriente que se lanza sobre un balón de fútbol.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "camiseta-10",
+    "artista": "mariana-reyes",
+    "titulo": "Camiseta 10",
+    "imagen": "camiseta-10",
+    "alt": "Pintura estilo animé de un jugador con la camiseta número 10 de rayas celestes y blancas, que mira hacia atrás en un estadio.",
+    "anio": "2025",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "osito-bajo-la-lluvia",
+    "artista": "mariana-reyes",
+    "titulo": "Osito bajo la lluvia",
+    "imagen": "osito-bajo-la-lluvia",
+    "alt": "Pintura de un osito amarillo con impermeable bajo la lluvia, sobre un fondo azul violeta.",
+    "anio": "2025",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "tortuga-marina",
+    "artista": "emma-castellon",
+    "titulo": "Tortuga marina",
+    "imagen": "tortuga-marina",
+    "alt": "Pintura de una tortuga de caparazón naranja que nada entre algas y burbujas, sobre un fondo azul.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "noche-estrellada-en-la-colina",
+    "artista": "emma-castellon",
+    "titulo": "Noche estrellada en la colina",
+    "imagen": "noche-estrellada-en-la-colina",
+    "alt": "Pintura de una colina verde bajo un cielo nocturno lleno de estrellas, con una figura pequeña y un zorro sentados mirando el horizonte.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "capibara-con-pajaro",
+    "artista": "emma-castellon",
+    "titulo": "Capibara con pájaro",
+    "imagen": "capibara-con-pajaro",
+    "alt": "Pintura de un capibara sentado sobre una roca con un pajarito en la cabeza, bajo un cielo azul con nubes.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "pulpo-naranja",
+    "artista": "emma-castellon",
+    "titulo": "Pulpo naranja",
+    "imagen": "pulpo-naranja",
+    "alt": "Pintura de un pulpo naranja de tentáculos largos sobre un fondo azul.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "cisnes",
+    "artista": "erika-polo",
+    "titulo": "Cisnes",
+    "imagen": "cisnes",
+    "alt": "Pintura de dos cisnes blancos que nadan en un agua gris con remolinos, bajo ramas verdes con flores.",
+    "anio": "2025",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "puente-al-atardecer",
+    "artista": "erika-polo",
+    "titulo": "Puente al atardecer",
+    "imagen": "puente-al-atardecer",
+    "alt": "Pintura de un puente colgante de piedra sobre el agua, con edificios al fondo, un avión y un cielo de atardecer naranja.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "flores-moradas",
+    "artista": "katherin-rodriguez",
+    "titulo": "Flores moradas",
+    "imagen": "flores-moradas",
+    "alt": "Pintura de dos flores moradas de pétalos finos, con tallos y hojas verdes, sobre un fondo amarillo y azul turquesa.",
+    "anio": "2026",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "diente-de-leon",
+    "artista": "katherin-rodriguez",
+    "titulo": "Diente de león",
+    "imagen": "diente-de-leon",
+    "alt": "Pintura en blanco y negro de un diente de león esponjoso sobre un fondo de manchas grises.",
+    "anio": "2026",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "velero-al-atardecer",
+    "artista": "katherin-rodriguez",
+    "titulo": "Velero al atardecer",
+    "imagen": "velero-al-atardecer",
+    "alt": "Pintura de un velero de velas blancas sobre un mar que refleja un atardecer naranja y rosado, con flores rosadas en una esquina.",
+    "anio": "2026",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "copas-de-champana",
+    "artista": "sara-nieto",
+    "titulo": "Copas de champaña",
+    "imagen": "copas-de-champana",
+    "alt": "Pintura de una botella que sirve champaña en tres copas de cristal, sobre un fondo cálido de tonos marrón y naranja.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "caballo-en-el-agua",
+    "artista": "sara-nieto",
+    "titulo": "Caballo en el agua",
+    "imagen": "caballo-en-el-agua",
+    "alt": "Pintura de un caballo blanco de crin larga que avanza entre olas de distintos azules.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "spider-man",
+    "artista": "nicolas-malaver",
+    "titulo": "Spider-Man",
+    "imagen": "spider-man",
+    "alt": "Pintura de la máscara roja de Spider-Man sobre un fondo verde con telarañas blancas.",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "retrato-de-nico",
+    "artista": "nicolas-malaver",
+    "titulo": "Retrato",
+    "imagen": "retrato-de-nico",
+    "alt": "Retrato de un joven de cabello castaño y ojos azules, con el torso descubierto, sobre un fondo azul.",
+    "anio": "2025",
+    "expuesta": true,
+    "publicada": true
   }
 ]
