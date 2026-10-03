@@ -105,6 +105,16 @@ Cada obra puede tener una o varias inspiraciones (`"inspiraciones": [ … ]`). T
 - Los enlaces se abren en otra pestaña y **nada se reproduce solo**: el visitante decide.
 - Si la obra tiene una explicación en audio, agrega `"audio": "nombre.mp3"` y guarda el archivo en `public/meraki/audio/`.
 
+## Publicar en Vercel
+
+El sitio es HTML estático ya armado en `public/meraki/`: no hay nada que instalar ni construir.
+
+1. En vercel.com: *Add New → Project* e importa este repositorio.
+2. `vercel.json` ya le indica a Vercel que publique `public/meraki` (sin instalar ni construir) y que use barra final en las direcciones (`/obra/venom/`).
+3. Cada vez que subas cambios a `main`, Vercel vuelve a publicar solo.
+
+Si cambias el contenido: edita `content/`, ejecuta `node tools/build.mjs` y sube los cambios (incluida la carpeta `public/meraki`).
+
 ## Los códigos QR
 
 1. Publica el sitio.
