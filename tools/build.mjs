@@ -190,7 +190,8 @@ function pagina({ titulo, descripcion, r, cuerpo, destino, scripts = [], clase =
     url && `<meta property="og:url" content="${esc(url)}">`,
     ogImagen && `<meta property="og:image" content="${esc(ogImagen)}">`,
     ogImagen && `<meta name="twitter:card" content="summary_large_image">`,
-    noindex && `<meta name="robots" content="noindex">`,
+    // Protección de las obras: sin indexar imágenes sueltas ni uso para entrenar IA (petición de buena fe)
+    `<meta name="robots" content="${noindex ? "noindex" : "noimageindex, noai, noimageai"}">`,
   ].filter(Boolean).join("\n  ");
 
   const cabecera = inicio
@@ -225,7 +226,8 @@ ${cuerpo}
     <footer class="foot">
       <p><strong>${esc(site.nombre)}</strong> · ${esc(site.subtitulo)}</p>
       <nav aria-label="Secciones"><a href="${ruta.artistas(r)}">Artistas</a><a href="${ruta.obras(r)}">Obras</a></nav>
-      ${site.creditos ? `<p class="foot-credit">${esc(site.creditos.texto)} <a href="${esc(urlSegura(site.creditos.url, "creditos"))}" target="_blank" rel="noopener noreferrer">${esc(site.creditos.nombre)}<span class="sr"> (se abre en otra pestaña)</span></a></p>` : ""}
+      <p class="foot-rights">${esc(site.derechos || "Las obras pertenecen a sus artistas.")}</p>
+      ${site.creditos ?`<p class="foot-credit">${esc(site.creditos.texto)} <a href="${esc(urlSegura(site.creditos.url, "creditos"))}" target="_blank" rel="noopener noreferrer">${esc(site.creditos.nombre)}<span class="sr"> (se abre en otra pestaña)</span></a></p>` : ""}
     </footer>
   </div>
   <script src="${r}assets/js/site.js" defer></script>
@@ -433,6 +435,7 @@ function paginaObra(o, i) {
         <h1 class="titulo-obra">${esc(o.titulo)}</h1>
         <p class="por">de <a href="${ruta.artista(r, a.slug)}">${esc(a.nombre)}</a></p>
         ${datos ? `<p class="datos">${datos}</p>` : ""}
+        <p class="copyright">© ${o.anio ? esc(o.anio) + " " : ""}${esc(a.nombre)}. Todos los derechos reservados.</p>
         ${o.descripcion ? `<p class="descripcion">${esc(o.descripcion)}</p>` : ""}
         ${insp}
         ${audio}

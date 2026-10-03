@@ -4,6 +4,7 @@
   "tituloPortada": "Exposiciones de los artistas en Meraki Academia de arte",
   "lema": "Arte hecho por nuestros artistas.",
   "descripcion": "Galería digital de Meraki Academia Arte-Café: cada pintura tiene su propia historia.",
+  "derechos": "Las obras pertenecen a sus artistas. No se pueden copiar, descargar ni usar sin su autorización.",
   "creditos": { "texto": "Hecho por", "nombre": "Sunhaus", "url": "https://sunhausco.com/" },
   "baseUrl": ""
 }

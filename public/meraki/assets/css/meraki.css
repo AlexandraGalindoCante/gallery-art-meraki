@@ -142,7 +142,8 @@ h1, h2, h3 { margin: 0; }
 }
 .foot strong { color: var(--ink); }
 .foot nav { display: flex; gap: 22px; }
-.foot-credit { flex-basis: 100%; margin-top: 4px; font-size: .85rem; color: var(--muted); }
+.foot-rights { flex-basis: 100%; margin-top: 2px; font-size: .85rem; color: var(--muted); max-width: 60ch; }
+.foot-credit { flex-basis: 100%; margin-top: 0; font-size: .85rem; color: var(--muted); }
 .foot-credit a { font-weight: 700; text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1.5px; }
 .foot a { text-decoration: none; font-weight: 700; color: var(--ink); }
 .foot a:hover { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 2px; text-decoration-color: var(--accent); }
@@ -434,6 +435,7 @@ h1, h2, h3 { margin: 0; }
 .por { margin-top: 14px; font-size: 1.15rem; color: var(--soft); }
 .por a { color: var(--accent); font-weight: 700; text-decoration-thickness: 2px; text-underline-offset: 4px; }
 .datos { margin-top: 4px; font-size: .95rem; color: var(--muted); }
+.copyright { margin-top: 4px; font-size: .85rem; color: var(--muted); }
 .descripcion { margin-top: 22px; font-size: 1.1rem; line-height: 1.6; max-width: 46ch; color: var(--soft); }
 
 .ir-artista { margin-top: 38px; }
