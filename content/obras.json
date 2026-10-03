@@ -29,6 +29,56 @@
     "publicada": true
   },
   {
+    "slug": "limones",
+    "artista": "juana-camila",
+    "titulo": "Limones",
+    "imagen": "limones",
+    "alt": "Pintura de tres limones amarillos colgando de una rama con hojas verdes, sobre un fondo azul turquesa.",
+    "anio": "2025",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "faro-junto-al-mar",
+    "artista": "juana-camila",
+    "titulo": "Faro junto al mar",
+    "imagen": "faro-junto-al-mar",
+    "alt": "Pintura de un faro de torre clara y techo rojo sobre una isla rocosa, con el mar, gaviotas y nubes en el cielo.",
+    "anio": "2026",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "hibisco",
+    "artista": "juana-camila",
+    "titulo": "Hibisco",
+    "imagen": "hibisco",
+    "alt": "Pintura de una flor grande de pétalos naranja y rojo, con hojas verdes y pinceladas gruesas.",
+    "anio": "2026",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "arco-en-el-jardin",
+    "artista": "juana-camila",
+    "titulo": "Arco en el jardín",
+    "imagen": "arco-en-el-jardin",
+    "alt": "Pintura de un arco de piedra cubierto de plantas, con flores azules a la izquierda y rosadas a la derecha, y un camino de escalones.",
+    "anio": "2026",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "mapache",
+    "artista": "juana-camila",
+    "titulo": "Mapache",
+    "imagen": "mapache",
+    "alt": "Pintura en blanco y negro de un mapache que se cubre la boca con las patas, sobre un fondo claro.",
+    "anio": "2026",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
     "slug": "aguacate",
     "artista": "juana-camila",
     "titulo": "Aguacate",

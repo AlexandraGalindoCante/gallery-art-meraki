@@ -254,7 +254,7 @@ function indiceArtistas(r) {
   return `<ol class="index">
       ${artistas.map((a, i) => {
         const n = obrasDe(a).length;
-        return `<li><a href="${ruta.artista(r, a.slug)}"><span class="idx-name"><b>${String(i + 1).padStart(2, "0")}</b><i class="sw" style="background:${esc(a.color)}"></i>${esc(a.nombre)}</span><span>${plural(n, "obra", "obras")}</span></a></li>`;
+        return `<li><a href="${ruta.artista(r, a.slug)}"><span class="idx-name"><b>${String(i + 1).padStart(2, "0")}</b><i class="sw" style="background:${esc(a.color)}"></i>${esc(a.nombre)}</span><span>${n ? plural(n, "obra", "obras") : "Próximamente"}</span></a></li>`;
       }).join("\n      ")}
     </ol>`;
 }
@@ -318,13 +318,13 @@ function paginaArtista(a) {
         ${retrato ? `<img class="retrato" src="${r}${retrato.m}" srcset="${r}${retrato.m} ${retrato.mw}w, ${r}${retrato.g} ${retrato.gw}w" sizes="144px" width="144" height="144" alt="Retrato de ${esc(a.nombre)}" decoding="async">` : ""}
         <div>
           <h2 class="eyebrow">Sobre el artista</h2>
-          ${a.bio ? `<p class="bio">${esc(a.bio)}</p>` : ""}
+          ${a.bio ? a.bio.split(/\n+/).map((p) => `<p class="bio">${esc(p)}</p>`).join("\n          ") : ""}
         </div>
       </div>` : ""}
     </section>
 
     <section class="bloque" aria-labelledby="h-obras" style="--accent:${esc(a.color)}">
-      <h2 class="eyebrow" id="h-obras">Obras · ${plural(lista.length, "obra", "obras")}</h2>
+      <h2 class="eyebrow" id="h-obras">Obras${lista.length ? ` · ${plural(lista.length, "obra", "obras")}` : ""}</h2>
       ${lista.length ? rejilla(lista, r) : '<p class="vacio">Pronto habrá obras aquí.</p>'}
     </section>`;
   return pagina({

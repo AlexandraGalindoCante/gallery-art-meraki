@@ -11,7 +11,105 @@
     "slug": "juana-camila",
     "nombre": "Juana Camila",
     "color": "#1f8a93",
-    "bio": "Le gustan las noches, las flores y los colores que brillan sobre fondos oscuros.",
+    "bio": "Hola, soy Juana y tengo 11 años.\n\nMe gusta mucho la naturaleza y el arte en sus diferentes formas. Estoy feliz explorando, aprendiendo a dibujar, a pintar óleo sobre lienzo y acuarela.\n\nMe encanta pasar las tardes de los sábados con mi mejor amiga Alana, haciendo arte, compartiendo ideas y riéndonos juntas. 💛\n\nAmo pintar paisajes, frutas y animales, porque la naturaleza me inspira muchísimo. También me inspiran mis padres, mi familia, mis amigos y amigos de mi mamá, que siempre me piden dibujos... aunque todavía no he logrado cumplir todos sus pedidos. 😄\n\nEstoy descubriendo poco a poco mi estilo, aprendiendo nuevas técnicas y disfrutando cada vez más el proceso de crear. Gracias por venir hoy.",
+    "publicado": true,
+    "retrato": "juana-camila"
+  },
+  {
+    "slug": "tawan-molano",
+    "nombre": "Tawan Molano",
+    "color": "#e8782b",
+    "publicado": true
+  },
+  {
+    "slug": "ivan-rojas",
+    "nombre": "Ivan Rojas",
+    "color": "#6b1f3a",
+    "publicado": true
+  },
+  {
+    "slug": "andea-polo",
+    "nombre": "Andea Polo",
+    "color": "#3f7d3a",
+    "publicado": true
+  },
+  {
+    "slug": "gabriela-granados",
+    "nombre": "Gabriela Granados",
+    "color": "#b3263a",
+    "publicado": true
+  },
+  {
+    "slug": "sara-nieto",
+    "nombre": "Sara Nieto",
+    "color": "#1f8a93",
+    "publicado": true
+  },
+  {
+    "slug": "valentina-novoa",
+    "nombre": "Valentina Novoa",
+    "color": "#e8782b",
+    "publicado": true
+  },
+  {
+    "slug": "nicolas-malaver",
+    "nombre": "Nicolas Malaver",
+    "color": "#6b1f3a",
+    "publicado": true
+  },
+  {
+    "slug": "laura-martinez",
+    "nombre": "Laura Martinez",
+    "color": "#3f7d3a",
+    "publicado": true
+  },
+  {
+    "slug": "katherin-rodriguez",
+    "nombre": "Katherin Rodriguez",
+    "color": "#b3263a",
+    "publicado": true
+  },
+  {
+    "slug": "valerie-becerra",
+    "nombre": "Valerie Becerra",
+    "color": "#1f8a93",
+    "publicado": true
+  },
+  {
+    "slug": "jorge-reyes",
+    "nombre": "Jorge Reyes",
+    "color": "#e8782b",
+    "publicado": true
+  },
+  {
+    "slug": "erika-polo",
+    "nombre": "Erika Polo",
+    "color": "#6b1f3a",
+    "publicado": true
+  },
+  {
+    "slug": "emma-castellon",
+    "nombre": "Emma Castellon",
+    "color": "#3f7d3a",
+    "publicado": true
+  },
+  {
+    "slug": "mariana-reyes",
+    "nombre": "Mariana Reyes",
+    "color": "#b3263a",
+    "publicado": true
+  },
+  {
+    "slug": "salome-cifuentes",
+    "nombre": "Salome Cifuentes",
+    "color": "#1f8a93",
+    "publicado": true
+  },
+  {
+    "slug": "mariana-monroy",
+    "nombre": "Mariana Monroy",
+    "color": "#e8782b",
+    "bio": "Profesora de Meraki Academia de arte.",
     "publicado": true
   }
 ]

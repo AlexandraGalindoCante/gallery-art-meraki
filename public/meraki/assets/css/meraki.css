@@ -352,6 +352,7 @@ h1, h2, h3 { margin: 0; }
 }
 .about .eyebrow { margin-bottom: 12px; }
 .artist-head .bio { font-size: 1.15rem; line-height: 1.55; max-width: 44ch; color: var(--soft); }
+.artist-head .bio + .bio { margin-top: .9em; }
 
 /* ---------- Página de la obra ---------- */
 
