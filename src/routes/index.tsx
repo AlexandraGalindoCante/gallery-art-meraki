@@ -6,15 +6,17 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
-  // El proyecto entregable es un sitio 100% estático bajo /artscope/
-  // (HTML + CSS + JS + JSON). Compatible con GitHub Pages.
+  // La galería de Meraki es un sitio 100% estático (HTML + CSS + JS) en public/meraki/.
+  // Se genera con `node tools/build.mjs` desde la carpeta content/. Ver LEEME.md.
   useEffect(() => {
-    window.location.replace("/artscope/index.html");
+    window.location.replace("/meraki/index.html");
   }, []);
 
   return (
-    <div style={{ minHeight: "100dvh", display: "grid", placeItems: "center", background: "#0F1117", color: "#F5F7FA", fontFamily: "system-ui" }}>
-      <p>Cargando Art Scope… <a href="/artscope/" style={{ color: "#00B8FF" }}>entrar</a></p>
+    <div style={{ minHeight: "100dvh", display: "grid", placeItems: "center", background: "#fbfaf8", color: "#1f2a2b", fontFamily: "system-ui" }}>
+      <p>
+        Abriendo la galería de Meraki… <a href="/meraki/index.html" style={{ color: "#e8782b" }}>entrar</a>
+      </p>
     </div>
   );
 }

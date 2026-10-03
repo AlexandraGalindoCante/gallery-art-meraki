@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "venom",
+    "artista": "alana-cortes",
+    "titulo": "Venom",
+    "imagen": "venom",
+    "alt": "Pintura de Venom en perfil, con la boca abierta y la lengua larga, sobre un fondo rojo intenso.",
+    "tecnica": "Óleo sobre lienzo",
+    "destacada": true,
+    "expuesta": true,
+    "publicada": true,
+    "inspiraciones": [
+      {
+        "tipo": "musica",
+        "titulo": "Creep",
+        "descripcion": "Radiohead",
+        "url": "https://open.spotify.com/track/70LcF31zb1H0PyJoS1Sx1r"
+      }
+    ]
+  },
+  {
+    "slug": "tulipanes-en-flor",
+    "artista": "juana-camila",
+    "titulo": "Tulipanes en flor",
+    "imagen": "tulipanes-en-flor",
+    "alt": "Pintura de tulipanes blancos y rosados, con uno rojo, entre hojas verdes sobre un fondo violeta y rosa.",
+    "anio": "2026",
+    "expuesta": true,
+    "publicada": true
+  },
+  {
+    "slug": "aguacate",
+    "artista": "juana-camila",
+    "titulo": "Aguacate",
+    "imagen": "aguacate",
+    "tecnica": "Óleo sobre lienzo",
+    "expuesta": true,
+    "publicada": false,
+    "pendiente": "Falta la foto: guárdala con tools/optimizar-imagen.ps1 -Nombre aguacate. El título es provisional."
+  },
+  {
+    "slug": "gato-noche-estrellada",
+    "artista": "",
+    "titulo": "Gato de noche estrellada",
+    "imagen": "gato-noche-estrellada",
+    "tecnica": "Acrílico sobre lienzo",
+    "expuesta": true,
+    "publicada": false,
+    "pendiente": "Falta confirmar quién la pintó (campo artista) y conseguir una foto de frente del lienzo. Hay un recorte provisional en content/pendientes/ (no se publica). El título es provisional."
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "alana-cortes",
+    "nombre": "Alana Cortes",
+    "color": "#b3263a",
+    "retrato": "alana-cortes",
+    "bio": "Hola, soy Alana. Tengo 12 años y llevo pintando desde hace dos años, con técnicas en óleo. Me fascina dibujar y amo el universo Marvel, por eso verás que mucha de mi inspiración, especialmente en dibujos, es sobre sus personajes. Y en este mundo tan inspirador coincidí con mi mejor amiga. Amo seguir aprendiendo y llenando a mis papás de cuadros :D",
+    "publicado": true
+  },
+  {
+    "slug": "juana-camila",
+    "nombre": "Juana Camila",
+    "color": "#1f8a93",
+    "bio": "Le gustan las noches, las flores y los colores que brillan sobre fondos oscuros.",
+    "publicado": true
+  }
+]

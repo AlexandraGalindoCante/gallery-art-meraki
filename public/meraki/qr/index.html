@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Códigos QR · Meraki</title>
+  <meta name="description" content="Hoja imprimible de códigos QR.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Caveat:wght@600&display=swap">
+  <link rel="stylesheet" href="../assets/css/meraki.css">
+  <meta property="og:site_name" content="Meraki">
+  <meta property="og:title" content="Códigos QR · Meraki">
+  <meta property="og:description" content="Hoja imprimible de códigos QR.">
+  <meta property="og:type" content="website">
+  <meta name="robots" content="noindex">
+</head>
+<body class="pagina-qr">
+  <a class="skip" href="#principal">Saltar al contenido</a>
+  <div class="wrap">
+    <header class="top">
+      <a class="brand" href="../index.html">Meraki<small>Academia Arte-Café</small></a>
+      <a class="back" href="../index.html" data-back>← Volver</a>
+    </header>
+    <main id="principal">
+
+    <div class="no-print">
+      <h1 class="titulo-pagina">Códigos QR</h1>
+      <p class="lede">Un QR por cuadro, para pegarlo al lado de cada pintura. Cada uno lleva directo a la página de esa obra.</p>
+      <p class="aviso-qr" data-aviso hidden></p>
+      <p class="cta"><button class="btn btn-solid" type="button" data-imprimir>Imprimir hoja</button></p>
+    </div>
+    <div class="qr-sheet">
+      <article class="qr-card" data-ruta="" data-nombre="meraki-galeria">
+        <div class="qr-code" data-qr></div>
+        <p class="qr-title">Galería Meraki</p>
+        <p class="qr-artist">Todas las obras y artistas</p>
+        <p class="qr-cta">Escanea para visitar la galería</p>
+        <p class="qr-url" data-url></p>
+        <a class="qr-dl no-print" data-dl href="#" download>Descargar SVG</a>
+      </article>
+      <article class="qr-card" data-ruta="obra/venom/" data-nombre="qr-venom">
+        <div class="qr-code" data-qr></div>
+        <p class="qr-title">Venom</p>
+        <p class="qr-artist">Alana Cortes</p>
+        <p class="qr-cta">Escanea para conocer esta obra</p>
+        <p class="qr-url" data-url></p>
+        <a class="qr-dl no-print" data-dl href="#" download>Descargar SVG</a>
+      </article>
+      <article class="qr-card" data-ruta="obra/tulipanes-en-flor/" data-nombre="qr-tulipanes-en-flor">
+        <div class="qr-code" data-qr></div>
+        <p class="qr-title">Tulipanes en flor</p>
+        <p class="qr-artist">Juana Camila</p>
+        <p class="qr-cta">Escanea para conocer esta obra</p>
+        <p class="qr-url" data-url></p>
+        <a class="qr-dl no-print" data-dl href="#" download>Descargar SVG</a>
+      </article>
+    </div>
+    </main>
+    <footer class="foot">
+      <p><strong>Meraki</strong> · Academia Arte-Café</p>
+      <nav aria-label="Secciones"><a href="../artistas/index.html">Artistas</a><a href="../obras/index.html">Obras</a></nav>
+    </footer>
+  </div>
+  <script src="../assets/js/site.js" defer></script>
+  <script src="../assets/js/vendor/qrcode.js" defer></script>
+  <script src="../assets/js/qr.js" defer></script>
+</body>
+</html>
