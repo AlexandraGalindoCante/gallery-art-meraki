@@ -259,12 +259,24 @@ function indiceArtistas(r) {
     </ol>`;
 }
 
+/**
+ * Obras destacadas del inicio: una obra por artista (la marcada "destacada" o, si no hay, la primera),
+ * escogiendo artistas repartidos a lo largo de la lista para que se mezclen y no salgan todas del mismo.
+ */
+function obrasDestacadas(max) {
+  const porArtista = artistas
+    .map((a) => { const lista = obrasDe(a); return lista.find((o) => o.destacada) || lista[0]; })
+    .filter(Boolean);
+  if (porArtista.length <= max) return porArtista;
+  return Array.from({ length: max }, (_, i) => porArtista[Math.floor((i * porArtista.length) / max)]);
+}
+
 /* ---- Inicio ---- */
 function paginaInicio() {
   const r = "";
   const letras = ["c1", "c2", "c3", "c4", "c1", "c2"];
   const logo = [...site.nombre].map((l, i) => `<span class="${letras[i % letras.length]}" aria-hidden="true">${esc(l)}</span>`).join("");
-  const destacadas = (obras.filter((o) => o.destacada).concat(obras.filter((o) => !o.destacada))).slice(0, 4);
+  const destacadas = obrasDestacadas(8);
   const cuerpo = `
     <h1 class="logo" aria-label="${esc(site.nombre)}. ${esc(site.tituloPortada || site.subtitulo)}"><span class="pre" aria-hidden="true">${esc(site.tituloPortada || site.subtitulo)}</span>${logo}</h1>
     <p class="lede">${esc(site.lema)}</p>
